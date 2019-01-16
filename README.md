@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/klaxon.svg)](http://badge.fury.io/rb/klaxon)
+
 # klaxson
 Insert a programmable interactive warning prompt for developers
 before taking dangerous or destructive action.
