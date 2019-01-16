@@ -12,7 +12,7 @@ Gem::Specification.new {|s|
   
   s.files = Dir["{lib}/**/*"] + %w(README.md LICENSE)
 
-  s.add_runtime_dependency 'artii', '~> 0'
+  s.add_runtime_dependency 'artii', '~> 2'
   s.add_runtime_dependency 'colorize', '~> 0'
-  s.add_runtime_dependency 'ruby-termino', '~> 0'
+  s.add_runtime_dependency 'ruby-terminfo', '~> 0'
 }
