@@ -3,6 +3,7 @@ require_relative 'lib/klaxon/version'
 Gem::Specification.new {|s|
   s.name = 'klaxon'
   s.version = Klaxon::VERSION
+  s.licenses = ['MIT']
   s.summary = 'An interactive warning prompt for the command-line'
   s.description = 'Before a potentially dangerous or destructive action, issue a programmable warning prompt.'
   s.homepage = 'https://github.com/ryancalhoun/klaxon'
