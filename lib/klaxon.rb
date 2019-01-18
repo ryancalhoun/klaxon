@@ -39,6 +39,7 @@ module Klaxon
   # * +:color:+ - A symbol like :red or :yellow which will color the whole prompt
   # * +:type:+ - Either :enter (the default), :yesno, :random, or literal text
   # * +:ci:+ - If nil, auto-detect a CI environment from the ENV; if true, behave like a CI environment; if false, halt if it is a CI environment
+  # * +:dangerous:+ - A block to call or not call--if omitted, the method will return true or exit
   #
   def self.alert(banner: nil, description: nil, color: nil, type: nil, ci: nil, &dangerous)
     execute = proc do
